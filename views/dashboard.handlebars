@@ -1,0 +1,10 @@
+<h1>Your Posts</h1>
+<button id="new-post">New Post</button>
+{{#each posts}}
+<div class="post">
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
+    <button class="edit-post">Edit</button>
+    <button class="delete-post">Delete</button>
+</div>
+{{/each}}
